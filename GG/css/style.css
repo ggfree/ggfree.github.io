@@ -1,0 +1,170 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+body {
+    margin: 0;
+    background: #0D0517;
+} 
+
+@font-face {
+    font-family: 'font1c4ab54d66597df75ca60fdce4f7d5a1';        
+        src:    url('https://nomail.com.ua/files/eot/1c4ab54d66597df75ca60fdce4f7d5a1.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/1c4ab54d66597df75ca60fdce4f7d5a1.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/1c4ab54d66597df75ca60fdce4f7d5a1.woff2') format('woff2');
+    }
+    
+@font-face { 
+    font-family: 'BellMT';  
+    src: local('BellMT'), url('https://nomail.com.ua/files/woff/1c4ab54d66597df75ca60fdce4f7d5a1.woff') format('woff'); 
+}
+
+#bellmt { 
+    font-family:'BellMT'; 
+}
+  
+.font1c4ab54d66597df75ca60fdce4f7d5a1 { 
+    font-family: 'font1c4ab54d66597df75ca60fdce4f7d5a1'; 
+}
+
+.header{
+   width: 90%;
+   color: white;
+   margin: 10px;
+}
+
+.header-inner{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo {
+    font-size: 30px;
+    width: 30%;
+}
+
+.nav {
+    font-size: 24px;    
+    text-transform: uppercase;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    transition: color .2s linear; 
+    display: inline;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+.link:hover {
+    border-top: 1px solid white;
+    border-bottom: 1px  solid white;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+    
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    width: 100%;
+    max-width: 1200px;
+    height: 693px;
+    background: url(../images/img1.png) center no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.intro-inner{
+    position: absolute;
+    right: -100px;
+    top: 150px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.intro-text {    
+    font-size: 48px;
+    text-align: center;    
+}
+
+.button {
+    display: inline-block;
+    vertical-align: top;    
+    border: white 2px solid;
+    color: white;
+    font-family:'BellMT';
+    font-size: 27px;
+    padding: 20px 40px;    
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.button:hover {
+    box-shadow: 0 0 3px 1px white;
+    
+    border: white 2px solid;
+}
+
+.about {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    width: 100%;    
+    height: 685px;
+    background: url(../images/img2.jpg) center;
+    background-size: cover;    
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;     
+    text-align: center;
+}
+
+.a-item1{     
+    font-size: 24px;
+    color: white;
+    width: 50%;
+}
+.a-item2{     
+    font-size: 24px;
+    color: white;
+    width: 50%;
+}
+
+.sun {
+    height: 150px;
+}
+
+.project {   
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;   
+    width: 100%;    
+    height: 728px;
+    background: url(../images/img3.jpg) center;
+    background-size: cover;   
+    position: relative; 
+}
+
+.project-content {
+    color:white;   
+    font-size: 55px;  
+    text-align: center;
+    position: absolute;
+    left: 200px;    
+}
